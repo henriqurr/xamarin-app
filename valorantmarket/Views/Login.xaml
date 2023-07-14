@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="valorantmarket.Views.Login"
+             xmlns:controls="clr-namespace:valorantmarket.CustomControl;assembly=valorantmarket"
+             Title="VALORANT Market"
+             Padding="0"
+             BackgroundColor="#FF4454" SizeChanged="ContentPage_SizeChanged">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="FocusedEntryStyle" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="PlaceholderColor" Value="#fff" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="TextColor" Value="#fff" />
+                <Setter Property="Margin" Value="0,0,0,5" />
+                <Setter Property="Keyboard" Value="Text" />
+                <Setter Property="MaxLength" Value="50" />
+                <Style.Triggers>
+                    <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                        <Setter Property="BackgroundColor" Value="Transparent" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid x:Name="container" RowSpacing="0" ColumnSpacing="0" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="0"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackLayout x:Name="heading" Spacing="20" Padding="30" VerticalOptions="Center">
+            <!--<Label Text="VALORANT Market" FontSize="24" TextColor="#000" FontAttributes="Bold" HorizontalOptions="Center"/>-->
+
+            <Image Source="valorantlogoblack.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150" />
+
+            <BoxView Color="#fff" HeightRequest="1" WidthRequest="100" HorizontalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="1"  Padding="30,20">
+            <controls:LoginEntry x:Name="inputUsername" BorderColor="#fff" BorderWidth="2" Placeholder="Username" Style="{StaticResource FocusedEntryStyle}" />
+            <controls:LoginEntry x:Name="inputPassword" BorderColor="#fff" BorderWidth="2" Placeholder="Password" IsPassword="True" Style="{StaticResource FocusedEntryStyle}" />
+
+            <StackLayout Orientation="Horizontal" Margin="0,0,0,20">
+                <CheckBox Color="#fff"/>
+                <Label Text="Remember me" FontSize="Small" TextColor="#FFF" VerticalOptions="Center"/>
+            </StackLayout>
+
+            <Button x:Name="loginButton" Background="#FFF" TextColor="#FF4454" CornerRadius="5" Text="Login" Clicked="loginButton_Clicked"/>
+
+            <ActivityIndicator x:Name="loginIndicator" Color="#fff" IsRunning="False"  Margin="0, 20, 0, 0"></ActivityIndicator>
+
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </Grid>
+</ContentPage>

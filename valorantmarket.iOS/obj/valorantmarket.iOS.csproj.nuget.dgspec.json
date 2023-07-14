@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket.iOS\\valorantmarket.iOS.csproj": {}
+    "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket.iOS\\valorantmarket.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket.iOS\\valorantmarket.iOS.csproj": {
+    "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket.iOS\\valorantmarket.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket.iOS\\valorantmarket.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket.iOS\\valorantmarket.iOS.csproj",
         "projectName": "valorantmarket.iOS",
-        "projectPath": "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket.iOS\\valorantmarket.iOS.csproj",
-        "packagesPath": "C:\\Users\\ueekd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket.iOS\\obj\\",
+        "projectPath": "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket.iOS\\valorantmarket.iOS.csproj",
+        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ueekd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket\\valorantmarket.csproj": {
-                "projectPath": "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket\\valorantmarket.csproj"
+              "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket\\valorantmarket.csproj": {
+                "projectPath": "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket\\valorantmarket.csproj"
               }
             }
           }
@@ -68,20 +68,20 @@
         }
       }
     },
-    "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket\\valorantmarket.csproj": {
+    "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket\\valorantmarket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket\\valorantmarket.csproj",
+        "projectUniqueName": "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket\\valorantmarket.csproj",
         "projectName": "valorantmarket",
-        "projectPath": "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket\\valorantmarket.csproj",
-        "packagesPath": "C:\\Users\\ueekd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket\\obj\\",
+        "projectPath": "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket\\valorantmarket.csproj",
+        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ueekd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -135,7 +135,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

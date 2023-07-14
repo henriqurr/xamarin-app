@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638246110119051497
+_nugetassetstimestamp=638248811188105328
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\ueekd\onedrive\documentos\projectsprivate\xamarin\valorantmarket\valorantmarket.android\valorantmarket.android.csproj
+projectfullpath=c:\users\henry\onedrive\documentos\github\xamarin-app\valorantmarket.android\valorantmarket.android.csproj

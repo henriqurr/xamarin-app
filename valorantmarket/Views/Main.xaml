@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="valorantmarket.Views.Main"
+             Title="Dashboard"
+             BackgroundColor="#FFF">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Conteúdo principal -->
+            <StackLayout Grid.Row="0" Padding="5, 0, 5, 0">
+                <TableView Intent="Menu">
+                    <TableView.Root>
+                        <TableSection Title="Dashboard" TextColor="#FF4454">
+                            <ImageCell ImageSource="vandalprelude.png" Text="Prelude to Chaos Vandal" Detail="Price 2175vp" TextColor="#FF4454"></ImageCell>
+                            <ImageCell ImageSource="vandalchampions.png" Text="Champions 2021 Vandal" Detail="Exclusive" TextColor="Gold"></ImageCell>
+                            <ImageCell ImageSource="vandalreaver.png" Text="Reaver Vandal" Detail="Price 1775vp" TextColor="#FF4454"></ImageCell>
+                            <ImageCell ImageSource="vandalsublime.png" Text="Sublime Vandal" Detail="Price 1775vp" TextColor="#FF4454"></ImageCell>
+                            <ImageCell ImageSource="vandalglitchpop.png" Text="Glitchpop Vandal" Detail="Price 2175vp" TextColor="#FF4454"></ImageCell>
+                            <ImageCell ImageSource="phantomblastx.png" Text="BlastX Phantom" Detail="Price 2175vp" TextColor="#FF4454"></ImageCell>
+                            <ImageCell ImageSource="phantomchampions.png" Text="Champions 2022 Phantom" Detail="Exclusive" TextColor="Gold"></ImageCell>
+                            <ImageCell ImageSource="phantomoni.png" Text="Oni Phantom" Detail="Price 1775vp" TextColor="#FF4454"></ImageCell>
+                            <ImageCell ImageSource="phantomrecon.png" Text="Recon Phantom" Detail="Price 1775vp" TextColor="#FF4454"></ImageCell>
+                            <ImageCell ImageSource="phantomzed.png" Text="Zedd Phantom" Detail="Price 2675vp" TextColor="#FF4454"></ImageCell>
+                            <ImageCell ImageSource="guardiansovereign.png" Text="Sovereign Guardian" Detail="Price 1775vp" TextColor="#FF4454"></ImageCell>
+                            <ImageCell ImageSource="nolimitsbulldog.png" Text="NO LIMITS Bulldog" Detail="Price 1275vp" TextColor="#FF4454"></ImageCell>
+                        </TableSection>
+                    </TableView.Root>
+                </TableView>
+            </StackLayout>
+
+            <!-- Menu -->
+            <StackLayout Grid.Row="1" Orientation="Horizontal" BackgroundColor="#FF4454">
+                <Button Text="Rifles" BackgroundColor="#fff" CornerRadius="5" TextColor="#FF4454" Margin="10, 5, 0, 5" />
+                <Button Text="Pistols" BackgroundColor="#fff" CornerRadius="5" TextColor="#FF4454" Margin="0, 5, 0, 5" />
+                <Button Text="Snipers" BackgroundColor="#fff" CornerRadius="5" TextColor="#FF4454" Margin="0, 5, 0, 5" />
+                <Button Text="Exit" Clicked="Button_Clicked" BackgroundColor="#fff" CornerRadius="5" TextColor="#FF4454" Margin="0, 5, 0, 5" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "BzdtEh5ZD5HZ/O2uEfaGX/ju1GStCAjP3OiXl2uvCqmdgwQemP3DEixS5/HZbQ5Aq/OQzQTYo26g/l6Oejvm5w==",
+  "dgSpecHash": "vtDZfc36/Kzqqs0Zcm5v5Z2u68dYtS7B7ZUaqNjPXRqvfMpLs4s6Ou8RMF2sR+K9dWQ1Rc0Ptr0inV1oU0WfPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket\\valorantmarket.csproj",
+  "projectFilePath": "C:\\Users\\henry\\OneDrive\\Documentos\\GitHub\\xamarin-app\\valorantmarket\\valorantmarket.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ueekd\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ueekd\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\ueekd\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\ueekd\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\ueekd\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\henry\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\henry\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\henry\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\henry\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\henry\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

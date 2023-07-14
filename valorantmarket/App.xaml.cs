@@ -12,7 +12,13 @@ namespace valorantmarket
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Home());
+            var navigationPage = new NavigationPage(new Login());
+
+            MainPage = navigationPage;
+
+            NavigationPage.SetHasNavigationBar(navigationPage.CurrentPage, false);
+
+            //MainPage = new Main();
         }
 
         protected override void OnStart()
