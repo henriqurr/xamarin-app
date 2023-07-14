@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hCwKH/kvLVGmDXaG2C6F6P/hJkv9wELtDpi8Dg/Z1uxpOko45c2XdAOBIwLWk/yz6Si4WDQ69e3WTmyLJrWgQA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ueekd\\OneDrive\\Documentos\\ProjectsPrivate\\Xamarin\\valorantmarket\\valorantmarket.iOS\\valorantmarket.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ueekd\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ueekd\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ueekd\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
